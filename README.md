@@ -8,9 +8,9 @@ Since Apple's New silicon chip doesn't share the default Intel chips architectur
 
 To distribute Docker images that can generate containers on both architectures, I have compiled on this repository two methods for building either Docker images from a Dockerfile that use 'buildx' (1, 2).
 
-- Method one: GitHub Action for continuous integration (3)
+- Method one: GitHub Action (3)
 
-- Method two: Docker commands required to generate Docker images manually from the command line (4). 
+- Method two: Docker commands (4). 
 
 ---
 
