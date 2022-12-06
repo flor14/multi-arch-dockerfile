@@ -19,10 +19,24 @@ There are some requirements:
 - There are three SECRETS to add to the GitHub repository: `DOCKER_USERNAME`, `DOCKER_PASSWORD` and `DOCKER_IMAGE`.
 
 ## Method two: Docker commands
+*Adapted from 2*
 
+1 - `docker buildx create --name=mybuilder --use`
+2 (extra) - `docker buildx inspect --boostrap`
+3 (extra) - `docker ps`
+4 - `docker buildx build -t username/image --platform linux/amd64,linux/arm64 --push .`
+
+*Note*
+In case of getting the following error run `docker login --username=<username>`
+```
+------
+ > exporting to image:
+------
+error: failed to solve: server message: insufficient_scope: authorization failed
+```
 
 
 ## References
-1 - [Building multi-architecture images with GitHub Actions](https://blog.oddbit.com/post/2020-09-25-building-multi-architecture-im/) - Fri, Sep 25, 2020 by Lars Kellogg-Stedman
-2 - [DockerCon 2021: I Have an M1 Mac, Now What? Docker in a Multi-arch World](https://www.youtube.com/watch?v=pvaQcMrvMJo)
+1 - [Building multi-architecture images with GitHub Actions](https://blog.oddbit.com/post/2020-09-25-building-multi-architecture-im/) - Fri, Sep 25, 2020 by Lars Kellogg-Stedman  
+2 - [DockerCon 2021: I Have an M1 Mac, Now What? Docker in a Multi-arch World](https://www.youtube.com/watch?v=pvaQcMrvMJo) - Tonis Tiigi
 
