@@ -1,5 +1,5 @@
 # set base image from jupyter
-FROM jupyter/scipy-notebook:python-3.10.8
+FROM jupyter/scipy-notebook:latest
 
 USER root
 
