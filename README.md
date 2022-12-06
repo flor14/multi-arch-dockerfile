@@ -24,12 +24,15 @@ There are some requirements:
 
 ## Method two: Docker commands
 *Adapted from (4)*  
-  
-1 - `docker buildx create --name=mybuilder --use`  
-2 (extra) - `docker buildx inspect --boostrap`  
-3 (extra) - `docker ps`  
-4 - `docker buildx build -t username/image --platform linux/amd64,linux/arm64 --push .`  
-  
+
+You should have Docker Desktop installed.
+
+``` 
+docker buildx create --name=mybuilder --use  
+docker buildx inspect --boostrap # extra
+docker ps  # extra
+docker buildx build -t username/image --platform linux/amd64,linux/arm64 --push . # If you are running the command in the folder where the Dockerfile is
+```
 *Note*  
 In case of getting the following error run `docker login --username=<username>`  
 ```
