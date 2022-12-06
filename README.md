@@ -1,4 +1,4 @@
-# Create `amd64` and `arm64` versions of the same Dockerfile and push them to Docker Hub
+# Build `amd64` and `arm64` Dockerfile images and push them to Docker Hub
 
 ---
 
