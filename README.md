@@ -4,13 +4,13 @@
 
 **The purpose of this repository is to share how to generate and publish Docker images to Docker Hub for various architectures.**
 
-Since the apple's New silicon chip doesn't share the architecture of Intel chips, it has an impact on how Docker is run and is used in the new Mac M1 and M2 machines.
+Since Apple's New silicon chip doesn't share the default Intel chips architecture, it has an impact on how Docker is run and is used in the new Mac M1 and M2 machines.
 
-To distribute Docker images that can generate containers on both architectures, I have compiled on this repository two methods for building either Docker images from a Dockerfile that use the command 'buildx' (1, 2).
+To distribute Docker images that can generate containers on both architectures, I have compiled on this repository two methods for building either Docker images from a Dockerfile that use 'buildx' (1, 2).
 
-- Method one: GitHub Action for continuous integration
+- Method one: GitHub Action for continuous integration (3)
 
-- Method two: Docker commands required to generate Docker images manually from the command line. 
+- Method two: Docker commands required to generate Docker images manually from the command line (4). 
 
 ---
 
