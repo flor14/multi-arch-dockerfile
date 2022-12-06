@@ -20,7 +20,7 @@ To distribute Docker images that can generate containers on both architectures, 
 The GitHub Action workflow build and pushes direct to DockerHub the two Docker images. 
 There are some requirements:
 - The base image should exist in both architectures `arm64` and `amd64`.
-- There are three SECRETS to add to the GitHub repository: `DOCKER_USERNAME`, `DOCKER_PASSWORD` and `DOCKER_IMAGE`.
+- There are two SECRETS to add to the GitHub repository: `DOCKER_USERNAME`, `DOCKER_PASSWORD`.
 
 ## Method two: Docker commands
 *Adapted from (4)*  
