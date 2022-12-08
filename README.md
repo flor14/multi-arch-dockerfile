@@ -44,7 +44,7 @@ error: failed to solve: server message: insufficient_scope: authorization failed
 
 
 ## References
-1 - [Building Multi-Arch Images for Arm and x86 with Docker Desktop (2019)](https://www.docker.com/blog/multi-arch-images/) - Adam Parco
+1 - [Building Multi-Arch Images for Arm and x86 with Docker Desktop (2019)](https://www.docker.com/blog/multi-arch-images/) - Adam Parco  
 2 - [Multi-Platform Docker Builds (2020)](https://www.docker.com/blog/multi-platform-docker-builds/) - Adrian Mouat  
 3 - [How to Rapidly Build Multi-Architecture Images with Buildx (2022)](https://www.docker.com/blog/how-to-rapidly-build-multi-architecture-images-with-buildx/) - Tyler Charboneau  
 4 - [Building multi-architecture images with GitHub Actions (2020)](https://blog.oddbit.com/post/2020-09-25-building-multi-architecture-im/) - Lars Kellogg-Stedman    
