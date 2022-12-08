@@ -44,9 +44,10 @@ error: failed to solve: server message: insufficient_scope: authorization failed
 
 
 ## References
-1 - [Multi-Platform Docker Builds (2020)](https://www.docker.com/blog/multi-platform-docker-builds/) - Adrian Mouat  
-2 - [How to Rapidly Build Multi-Architecture Images with Buildx (2022)](https://www.docker.com/blog/how-to-rapidly-build-multi-architecture-images-with-buildx/) - Tyler Charboneau  
-3 - [Building multi-architecture images with GitHub Actions (2020)](https://blog.oddbit.com/post/2020-09-25-building-multi-architecture-im/) - Lars Kellogg-Stedman    
-4 - [DockerCon 2021: I Have an M1 Mac, Now What? Docker in a Multi-arch World](https://www.youtube.com/watch?v=pvaQcMrvMJo) - Tonis Tiigi  
-5 - [Multi-platform images - Docker documentation](https://docs.docker.com/build/building/multi-platform/)
+1 - [Building Multi-Arch Images for Arm and x86 with Docker Desktop (2019)](https://www.docker.com/blog/multi-arch-images/) - Adam Parco
+2 - [Multi-Platform Docker Builds (2020)](https://www.docker.com/blog/multi-platform-docker-builds/) - Adrian Mouat  
+3 - [How to Rapidly Build Multi-Architecture Images with Buildx (2022)](https://www.docker.com/blog/how-to-rapidly-build-multi-architecture-images-with-buildx/) - Tyler Charboneau  
+4 - [Building multi-architecture images with GitHub Actions (2020)](https://blog.oddbit.com/post/2020-09-25-building-multi-architecture-im/) - Lars Kellogg-Stedman    
+5 - [DockerCon 2021: I Have an M1 Mac, Now What? Docker in a Multi-arch World](https://www.youtube.com/watch?v=pvaQcMrvMJo) - Tonis Tiigi  
+6 - [Multi-platform images - Docker documentation](https://docs.docker.com/build/building/multi-platform/)
 
