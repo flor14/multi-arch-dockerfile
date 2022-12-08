@@ -6,16 +6,16 @@
 
 Since Apple's New silicon chip doesn't share the default Intel chips architecture, it has an impact on how Docker is run and is used in the new Mac M1 and M2 machines.
 
-To distribute Docker images that can generate containers on both architectures, I have compiled on this repository two methods for building either Docker images from a Dockerfile that use 'buildx' (1, 2).
+To distribute Docker images that can generate containers on both architectures, I have compiled on this repository two methods for building either Docker images from a Dockerfile that use BuildKit (1, 2, 3).
 
-- Method one: GitHub Action (3)
+- Method one: GitHub Action (4)
 
-- Method two: Docker commands (4). 
+- Method two: Docker commands (5). 
 
 ---
 
 ## Method one: GitHub Actions
-*Adapted from (3)*
+*Adapted from (4)*
 
 The GitHub Action workflow build and pushes direct to DockerHub the two Docker images. 
 There are some requirements:
@@ -23,7 +23,7 @@ There are some requirements:
 - There are two SECRETS to add to the GitHub repository: `DOCKER_USERNAME`, `DOCKER_PASSWORD`.
 
 ## Method two: Docker commands
-*Adapted from (4)*  
+*Adapted from (5)*  
 
 You should have Docker Desktop installed.
 
@@ -41,7 +41,7 @@ In case of getting the following error run `docker login --username=<username>`
 ------
 error: failed to solve: server message: insufficient_scope: authorization failed
 ```
-
+For more details read 6.
 
 ## References
 1 - [Building Multi-Arch Images for Arm and x86 with Docker Desktop (2019)](https://www.docker.com/blog/multi-arch-images/) - Adam Parco  
